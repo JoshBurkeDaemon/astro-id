@@ -14,7 +14,7 @@ const Form = () => {
     return (
         <div id="form-page" className="w-full h-screen flex justify-around">
             <aside id="form-nav" className="shadow-lg h-3/4 w-2/5 rounded-md">
-                <ul>
+                <ul className="flex flex-col gap-y-2">
                     <li>Personal Info</li>
                     <li>Reasons</li>
                     <li>Previous History</li>
@@ -34,7 +34,7 @@ const Form = () => {
                         <FormTextInput id="home-planet" type="text" label="Home Planet" placeholder="Home Planet"/>
                         <FormTextInput id="email" type="email" label="Email" placeholder="im.an.alient@invade.io"/>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="px-2 py-1 border-slate-200 border-solid border rounded-md w-1/4 self-center bg-green-500">Submit</button>
                 </form>
             </div>
         </div>
