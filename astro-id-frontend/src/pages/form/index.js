@@ -12,8 +12,8 @@ const FormTextInput = ({id, type, label, placeholder}) =>{
 const Form = () => {
 
     return (
-        <div id="form-page" className="w-full h-screen flex justify-around ">
-            <aside id="form-nav" className="shadow-lg h-3/4 w-2/5">
+        <div id="form-page" className="w-full h-screen flex justify-around">
+            <aside id="form-nav" className="shadow-lg h-3/4 w-2/5 rounded-md">
                 <ul>
                     <li>Personal Info</li>
                     <li>Reasons</li>
@@ -23,7 +23,7 @@ const Form = () => {
                 </ul>
             </aside>
 
-            <div id="right-side" className="shadow-lg h-3/4 w-2/5">
+            <div id="right-side" className="shadow-lg h-3/4 w-2/5 rounded-md">
                 <h1>Earth Visa Application</h1>
                 <form action="#" method="get" className="flex flex-col gap-y-6">
                     <div>
@@ -34,7 +34,7 @@ const Form = () => {
                         <FormTextInput id="home-planet" type="text" label="Home Planet" placeholder="Home Planet"/>
                         <FormTextInput id="email" type="email" label="Email" placeholder="im.an.alient@invade.io"/>
                     </div>
-
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
