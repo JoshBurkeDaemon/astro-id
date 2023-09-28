@@ -1,2 +1,2 @@
-# astro-id-api
+# astro-id
 
